@@ -1,5 +1,6 @@
 from django.urls import path
-from .views import *
+
+from papp.views import index, second
 
 urlpatterns = [
     path("", index, name="index"),
