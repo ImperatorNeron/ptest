@@ -120,7 +120,6 @@ STATIC_URL = '/home/ImperatorNeron/ptest/static'
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-STATIC_ROOT = '/home/ImperatorNeron/ptest/static'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, '/papp/static')
+    os.path.join(BASE_DIR, 'static')
 ]
